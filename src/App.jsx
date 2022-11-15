@@ -5,12 +5,12 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   const queryParameters = new URLSearchParams(window.location.search)
-  const os = queryParameters.get("os")
+  const n_seguimiento = queryParameters.get("n_seguimiento")
 
   return (
     <div className="App">
 
-      <h1>OS: {os}</h1>
+      <h1>OS: {n_seguimiento}</h1>
 
      
     </div>

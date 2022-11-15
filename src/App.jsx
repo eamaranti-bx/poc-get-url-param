@@ -10,11 +10,9 @@ function App() {
   return (
     <div className="App">
 
-      <h1>{os}</h1>
+      <h1>OS: {os}</h1>
 
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+     
     </div>
   )
 }
